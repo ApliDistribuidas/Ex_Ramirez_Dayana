@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PrestamosLibros_dbModelStoreContainer" CdmEntityContainer="PrestamosLibros_dbEntities">
+    <EntitySetMapping Name="PrestamosLibros">
+      <EntityTypeMapping TypeName="PrestamosLibros_dbModel.PrestamosLibros">
+        <MappingFragment StoreEntitySet="PrestamosLibros">
+          <ScalarProperty Name="PrestamoID" ColumnName="PrestamoID" />
+          <ScalarProperty Name="LibroID" ColumnName="LibroID" />
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="FechaPrestamo" ColumnName="FechaPrestamo" />
+          <ScalarProperty Name="FechaDevolucion" ColumnName="FechaDevolucion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
